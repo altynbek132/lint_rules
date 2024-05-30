@@ -12,8 +12,3 @@ linter:
   # false - inactive
 
   rules:
-    # ==========================IGNORE NAMING================================
-    no_leading_underscores_for_local_identifiers: false
-    non_constant_identifier_names: false
-    constant_identifier_names: false
-    camel_case_types: false
