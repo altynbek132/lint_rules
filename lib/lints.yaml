@@ -1,0 +1,24 @@
+include: package:flutter_lints/flutter.yaml
+
+# * // ignore: name_of_lint
+# * // ignore_for_file: name_of_lint
+
+analyzer:
+  plugins:
+    - ac_code_metrics
+
+ac_code_metrics:
+  rules:
+    - avoid-collection-methods-with-unrelated-types:
+        severity: error
+
+linter:
+  # true - active
+  # false - inactive
+
+  rules:
+    require_trailing_commas: true
+    prefer_final_locals: true
+
+    avoid_single_cascade_in_expression_statements: false
+    unnecessary_brace_in_string_interps: false

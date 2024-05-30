@@ -1,0 +1,19 @@
+include: package:flutter_lints/flutter.yaml
+
+# * // ignore: name_of_lint
+# * // ignore_for_file: name_of_lint
+
+analyzer:
+  plugins:
+    - ac_code_metrics
+
+linter:
+  # true - active
+  # false - inactive
+
+  rules:
+    # ==========================IGNORE NAMING================================
+    no_leading_underscores_for_local_identifiers: false
+    non_constant_identifier_names: false
+    constant_identifier_names: false
+    camel_case_types: false

@@ -1,0 +1,22 @@
+include: package:flutter_lints/flutter.yaml
+
+# * // ignore: name_of_lint
+# * // ignore_for_file: name_of_lint
+
+analyzer:
+  plugins:
+    - ac_code_metrics
+
+linter:
+  # true - active
+  # false - inactive
+
+  rules:
+    # ======================FOR DEBUG====================================
+    prefer_const_constructors: false
+    prefer_const_literals_to_create_immutables: false
+    avoid_print: false
+    use_key_in_widget_constructors: false
+    require_trailing_commas: false
+    sized_box_for_whitespace: false
+    camel_case_types: false

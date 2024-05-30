@@ -1,0 +1,13 @@
+name: lint_rules
+description: A starting point for Dart libraries or applications.
+version: 1.0.0
+publish_to: none
+
+environment:
+  sdk: ^3.4.1
+
+# Add regular dependencies here.
+dependencies:
+  ac_code_metrics:
+    git: https://github.com/altynbek132/dart-code-metrics
+  flutter_lints: ^4.0.0
