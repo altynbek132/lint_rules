@@ -20,7 +20,6 @@ linter:
 
   rules:
     # require_trailing_commas: true
-    prefer_final_locals: true
 
     avoid_single_cascade_in_expression_statements: false
     unnecessary_brace_in_string_interps: false
@@ -32,4 +31,6 @@ linter:
     use_key_in_widget_constructors: false
     require_trailing_commas: false
     sized_box_for_whitespace: false
+    prefer_const_declarations: false
+    prefer_final_locals: false
     camel_case_types: false
