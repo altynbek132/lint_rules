@@ -1,0 +1,15 @@
+include: package:lint_rules/lints.yaml
+
+# * // ignore: name_of_lint
+# * // ignore_for_file: name_of_lint
+
+analyzer:
+  plugins:
+    - ac_code_metrics
+
+ac_code_metrics:
+  extends:
+    - package:ac_code_metrics/all.yaml
+  rules:
+    - avoid-collection-methods-with-unrelated-types:
+        severity: error

@@ -1,31 +1,13 @@
-include: package:flutter_lints/flutter.yaml
+include: package:lint_rules/lints.yaml
 
 # * // ignore: name_of_lint
 # * // ignore_for_file: name_of_lint
-
-analyzer:
-  plugins:
-    - ac_code_metrics
-
-ac_code_metrics:
-  extends:
-    - package:ac_code_metrics/all.yaml
-  rules:
-    - avoid-collection-methods-with-unrelated-types:
-        severity: error
 
 linter:
   # true - active
   # false - inactive
 
   rules:
-    require_trailing_commas: true
-    prefer_final_locals: true
-    unawaited_futures: true
-
-    avoid_single_cascade_in_expression_statements: false
-    unnecessary_brace_in_string_interps: false
-
     # ==========================IGNORE NAMING================================
     no_leading_underscores_for_local_identifiers: false
     non_constant_identifier_names: false
